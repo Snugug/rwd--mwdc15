@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
 
-        <title>People First</title>
+        <title>Talk Title Goes Here</title>
 
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -49,15 +49,18 @@
 
             <div class="slides">
 
-                
-                    
-                        
-    <section data-markdown="slides/index.md"></section>
-
-
-                    
-                    
-                
+                <% _.forEach(slides, function(slide) { %>
+                    <% if (!_.isArray(slide)) { %>
+                        <%= section(slide) %>
+                    <% } %>
+                    <% if (_.isArray(slide)) { %>
+                        <section>
+                            <% _.forEach(slide, function(verticalslide) { %>
+                                <%= section(verticalslide) %>
+                            <% }); %>
+                        </section>
+                    <% } %>
+                <% }); %>
             </div>
 
             <footer class="content-info" role="contentinfo">
@@ -66,6 +69,10 @@
                   <span class="ibm">IBM </span><span class="design">Design</span>
                 </div>
               </div>
+
+              <p class="confidential-mark">
+                IBM <span>Designcamp</span> :: IBM Confidential :: &copy; 2015 IBM Corporation
+              </p>
             </footer>
 
         </div>
