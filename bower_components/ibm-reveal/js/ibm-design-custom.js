@@ -11,6 +11,11 @@ function introFooter() {
     document.querySelector('.intro-only').style.display = 'none';
     document.querySelector('.ibm-header').style.display = 'block';
   }
+  window.addEventListener('load', function () {
+    if (window.Prism) {
+      Prism.highlightAll();
+    }
+  });
 }
 
 introFooter();

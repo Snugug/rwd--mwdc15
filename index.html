@@ -19,7 +19,7 @@
 
 
         <!-- For syntax highlighting -->
-        <link rel="stylesheet" href="bower_components/reveal.js/lib/css/zenburn.css" id="highlight-theme">
+        <link rel="stylesheet" href="css/style.css">
 
         <!-- If the query includes 'print-pdf', use the PDF print sheet -->
         <script>
@@ -44,6 +44,8 @@
             <header class="ibm-header">
               <div class="header-logo">
                 <span class="ibm">IBM </span><span class="design">Design</span>
+                <span id="time">0:00</span>
+                <audio src="audio/chime.mp3" id="chime"></audio>
               </div>
             </header>
 
@@ -52,7 +54,42 @@
                 
                     
                         
-    <section data-markdown="slides/index.md"></section>
+    <section data-state="dark" data-markdown="slides/index.md"></section>
+
+
+                    
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-timer="120" data-html="slides/vase/vase.html"></section>
+
+
+                            
+                                
+    <section data-state="vase" data-html="slides/vase/did-it-look-like-this.html"></section>
+
+
+                            
+                                
+    <section data-state="dark" data-html="slides/vase/throw-that-away.html"></section>
+
+
+                            
+                                
+    <section data-state="flowers" data-timer="120" data-html="slides/vase/flowers.html"></section>
+
+
+                            
+                        </section>
+                    
+                
+                    
+                        
+    <section data-state="dark" data-html="slides/vase/whats-the-difference.html"></section>
 
 
                     
@@ -84,7 +121,7 @@
                 center: true,
 
                 theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-                transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+                transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
 
                 // Optional libraries used to extend on reveal.js
                 dependencies: [
@@ -94,6 +131,7 @@
                     { src: 'bower_components/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
                     { src: 'bower_components/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
                     { src: 'bower_components/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+                    { src: 'js/countdown.js', async: true },
                     // { src: 'bower_components/reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
                     //{ src: 'bower_components/reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
 
