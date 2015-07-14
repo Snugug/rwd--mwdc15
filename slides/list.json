@@ -1,0 +1,27 @@
+[
+    {
+        "filename": "index.md",
+        "attr": {
+            "data-state": "dark"
+        }
+    },
+
+    {
+      "filename": "follow.html",
+        "attr": {
+
+      }
+    },
+
+    [
+      {
+          "filename": "resources.html",
+          "attr": {}
+      },
+      {
+          "filename": "thanks.html",
+          "attr": {}
+      }
+    ]
+
+]
