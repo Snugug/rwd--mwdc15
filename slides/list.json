@@ -20,11 +20,7 @@
     "01-big-deal/big-deals-are-also-squishy.html",
     [
         "01-rwd-intro/intro-to-rwd.html",
-        "01-rwd-intro/basic-rwd.html",
-        "01-rwd-intro/media-queries.html",
-        "01-rwd-intro/responsive-grid.html",
-        "01-rwd-intro/responsive-grid--video.html",
-        "01-rwd-intro/its-squishy.html"
+        "01-rwd-intro/basic-rwd.html"
     ],
     [
         "grids/responisve-grids.html",
