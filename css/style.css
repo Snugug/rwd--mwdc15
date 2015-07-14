@@ -188,6 +188,11 @@ body {
 }
 
 
+.reveal code[class*="language"] {
+  background: inherit;
+  outline: none;
+}
+
 .bounce {
   -moz-animation: "bounce" 2s infinite;
   -webkit-animation: "bounce" 2s infinite;
@@ -244,4 +249,70 @@ body {
   100% {
     transform: translateY(-.5em);
   }
+}
+
+
+.reveal [class*="nine60"] {
+  color: black;
+  box-sizing: border-box;
+}
+
+.reveal [class*="nine60--"] {
+  /*border: 1px solid black;*/
+  padding: .25em .5em;
+  text-transform: lowercase;
+
+  background: rgba(188, 188, 188, .75);
+}
+
+.reveal .nine60 {
+  max-width: 960px;
+  height: 20vh;
+  margin: 0 auto;
+/*  padding-left: 1.0417%;  20px / 960px * 100% * .5, 1/2 gutter
+  padding-right: 1.0417%;*/
+  background-image: linear-gradient(to right, rgb(237, 236, 237), rgb(237, 236, 237) 1.04167%, rgb(149, 149, 149) 1.04167%, rgb(149, 149, 149) 7.29167%, rgb(237, 236, 237) 7.29167%, rgb(237, 236, 237) 9.375%, rgb(149, 149, 149) 9.375%, rgb(149, 149, 149) 15.625%, rgb(237, 236, 237) 15.625%, rgb(237, 236, 237) 17.70833%, rgb(149, 149, 149) 17.70833%, rgb(149, 149, 149) 23.95833%, rgb(237, 236, 237) 23.95833%, rgb(237, 236, 237) 26.04167%, rgb(149, 149, 149) 26.04167%, rgb(149, 149, 149) 32.29167%, rgb(237, 236, 237) 32.29167%, rgb(237, 236, 237) 34.375%, rgb(149, 149, 149) 34.375%, rgb(149, 149, 149) 40.625%, rgb(237, 236, 237) 40.625%, rgb(237, 236, 237) 42.70833%, rgb(149, 149, 149) 42.70833%, rgb(149, 149, 149) 48.95833%, rgb(237, 236, 237) 48.95833%, rgb(237, 236, 237) 51.04167%, rgb(149, 149, 149) 51.04167%, rgb(149, 149, 149) 57.29167%, rgb(237, 236, 237) 57.29167%, rgb(237, 236, 237) 59.375%, rgb(149, 149, 149) 59.375%, rgb(149, 149, 149) 65.625%, rgb(237, 236, 237) 65.625%, rgb(237, 236, 237) 67.70833%, rgb(149, 149, 149) 67.70833%, rgb(149, 149, 149) 73.95833%, rgb(237, 236, 237) 73.95833%, rgb(237, 236, 237) 76.04167%, rgb(149, 149, 149) 76.04167%, rgb(149, 149, 149) 82.29167%, rgb(237, 236, 237) 82.29167%, rgb(237, 236, 237) 84.375%, rgb(149, 149, 149) 84.375%, rgb(149, 149, 149) 90.625%, rgb(237, 236, 237) 90.625%, rgb(237, 236, 237) 92.70833%, rgb(149, 149, 149) 92.70833%, rgb(149, 149, 149) 98.95833%, rgb(237, 236, 237) 98.95833%, rgb(237, 236, 237) 100%); }
+
+.reveal .nine60:before,
+.reveal .nine60:after {
+    content: " ";
+    display: table;
+}
+
+.reveal .nine60:after {
+    clear: both;
+}
+
+.reveal .nine60--left {
+  float: left;
+  width: 31.25%;
+  height: 10vh;
+  margin-left: 1.0417%;
+
+}
+
+.reveal .nine60--right {
+  float: right;
+  width: 64.583333333%;
+  height: 15vh;
+  margin-right: 1.0417%;
+}
+
+
+.reveal [library-class="example--SMALL"] {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.reveal [library-class="example--title"] {
+  font-weight: bold;
+}
+
+.reveal [library-class="example--SMALL"]:nth-of-type(odd) {
+  padding-right: .5rem;
+}
+
+.reveal [library-class="example--SMALL"]:nth-of-type(even) {
+  padding-left: .5rem;
 }

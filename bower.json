@@ -4,6 +4,7 @@
   "dependencies": {
     "reveal.js": "~2.6.1",
     "reveal-highlight-themes": "~8.3.0",
-    "ibm-reveal": "git@git.design.ibm.com:uakravet/ibm-design-theme-for-reveal-js.git"
+    "ibm-reveal": "git@git.design.ibm.com:uakravet/ibm-design-theme-for-reveal-js.git",
+    "prism": "~1.0.0"
   }
 }

@@ -20,6 +20,7 @@
 
         <!-- For syntax highlighting -->
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="bower_components/prism/themes/prism-okaidia.css">
 
         <!-- If the query includes 'print-pdf', use the PDF print sheet -->
         <script>
@@ -98,7 +99,13 @@
                     { src: 'bower_components/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
                     { src: 'bower_components/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
                     { src: 'bower_components/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-                    { src: 'bower_components/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: 'bower_components/prism/prism.js' },
+                    { src: 'bower_components/prism/components/prism-scss.min.js' },
+                    { src: 'bower_components/prism/components/prism-bash.min.js' },
+                    { src: 'bower_components/prism/components/prism-markup.min.js' },
+                    { src: 'bower_components/prism/components/prism-handlebars.min.js' },
+                    { src: 'bower_components/prism/components/prism-markdown.min.js' },
+                    { src: 'bower_components/prism/components/prism-javascript.min.js', callback: function() { Prism.highlightAll(); }},
                     { src: 'bower_components/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
                     { src: 'bower_components/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
                     { src: 'js/countdown.js', async: true },

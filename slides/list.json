@@ -5,23 +5,95 @@
             "data-state": "dark"
         }
     },
-
     {
-      "filename": "follow.html",
-        "attr": {
-
-      }
+        "filename": "follow.html",
+        "attr": {}
     },
+    "qp.html",
+    [
+        "01-big-deal/responsive-is-a-big-deal.html",
+        "01-big-deal/big-deals-are-usable.html",
+        "01-big-deal/big-deals-are-accessible.html",
+        "01-big-deal/big-deals-are-sustainable.html",
+        "01-big-deal/big-deals-perform.html"
+    ],
+    "01-big-deal/big-deals-are-also-squishy.html",
+    [
+        "01-rwd-intro/intro-to-rwd.html",
+        "01-rwd-intro/basic-rwd.html",
+        "01-rwd-intro/media-queries.html",
+        "01-rwd-intro/responsive-grid.html",
+        "01-rwd-intro/responsive-grid--video.html",
+        "01-rwd-intro/its-squishy.html"
+    ],
+    [
+        "grids/responisve-grids.html",
+        "grids/target-and-context.html",
+        "grids/960gs.html",
+        "grids/sample-960.html"
+    ],
+    {
+        "filename": "grids/grid-challenge.html",
+        "attr": {
+            "data-timer": "900"
+        }
+    },
+    [
+        "grids/content-out-layouts.html",
+        "grids/grid-vacuum.html",
+        "grids/asymmetric-grids.html",
+        "grids/asymmetric.html"
+    ],
+    {
+        "filename": "grids/grid-challenge-2.html",
+        "attr": {
+            "data-timer": "900"
+        }
+    },
+    [
+        "media-queries/media-queries.html",
+        "media-queries/mqs.html",
+        "media-queries/shit.html",
+        "media-queries/sample-mq.html",
+        "media-queries/flexible-grid-video.html"
+    ],
+    {
+        "filename": "media-query-challenge.html",
+        "attr": {
+            "data-timer": "900"
+        }
+    },
+    [
+        "flexible-media/flexible-media.html",
+        "flexible-media/basic-media.html",
+        "flexible-media/srcset.html",
+        "flexible-media/picture-element.html",
+        "flexible-media/crazy-picture.html"
+    ],
+    {
+        "filename": "flexible-media-challenge.html",
+        "attr": {
+            "data-timer": "1200"
+        }
+    },
+    "bam.html",
+    [
+        {
+            "filename": "resources.html",
+            "attr": {}
+        },
+        {
+            "filename": "thanks.html",
+            "attr": {}
+        }
+    ],
 
     [
-      {
-          "filename": "resources.html",
-          "attr": {}
-      },
-      {
-          "filename": "thanks.html",
-          "attr": {}
-      }
+      "mobile-first/mobile-first.html",
+      "mobile-first/karen-mobile.html",
+      "mobile-first/zeldman-mobile-first.html",
+      "mobile-first/mobile-lens.html",
+      "mobile-first/mobile-focus-1.html",
+      "mobile-first/mobile-focus-2.html"
     ]
-
 ]

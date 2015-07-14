@@ -1,0 +1,22 @@
+<h3>All Together Now</h3>
+
+<pre style="font-size: .75em;"><code class="language-markup">&lt;picture&gt;
+  &lt;!-- 16:9 crop --&gt;
+  &lt;source
+    type="image/webp"
+    media="(min-width: 41.25em) (orientation: landscape)"
+    srcset="bo--medium-wide/large.webp  1920w,
+            bo--medium-wide/medium.webp 960w,
+            bo--medium-wide/small.webp  480w"
+    sizes="(min-width: 41.25em) 38.75em,
+            calc(100vw - 2.5em)"&gt;
+  &lt;source
+    media="(min-width: 41.25em) (orientation: landscape)"
+    srcset="bo--medium-wide/large.jpg  1920w,
+            bo--medium-wide/medium.jpg 960w,
+            bo--medium-wide/small.jpg  480w"
+    sizes="(min-width: 41.25em) 38.75em,
+            calc(100vw - 2.5em)"&gt;
+  &lt;source srcset="bo--fullx2.jpg 2x, bo--fullx3.jpg 3x" media="(min-width: 56.25em)"&gt;
+  &lt;img src="bo--close.jpg" alt="Bo, the presidential dog"&gt;
+&lt;/picture&gt;</code></pre>
