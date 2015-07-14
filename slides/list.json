@@ -58,7 +58,7 @@
         "media-queries/flexible-grid-video.html"
     ],
     {
-        "filename": "media-query-challenge.html",
+        "filename": "media-queries/media-query-challenge.html",
         "attr": {
             "data-timer": "900"
         }
@@ -71,7 +71,7 @@
         "flexible-media/crazy-picture.html"
     ],
     {
-        "filename": "flexible-media-challenge.html",
+        "filename": "flexible-media/flexible-media-challenge.html",
         "attr": {
             "data-timer": "1200"
         }
@@ -87,16 +87,28 @@
             "attr": {}
         }
     ],
+    [
+        "mobile-first/mobile-first.html",
+        "mobile-first/karen-mobile.html",
+        "mobile-first/zeldman-mobile-first.html",
+        "mobile-first/mobile-lens.html",
+        "mobile-first/mobile-focus-1.html",
+        "mobile-first/mobile-focus-2.html",
+        "mobile-first/happy-salad.html",
+        "mobile-first/happy-salad-male.html",
+        "mobile-first/mobile-first-recap.html"
+    ],
 
     [
-      "mobile-first/mobile-first.html",
-      "mobile-first/karen-mobile.html",
-      "mobile-first/zeldman-mobile-first.html",
-      "mobile-first/mobile-lens.html",
-      "mobile-first/mobile-focus-1.html",
-      "mobile-first/mobile-focus-2.html",
-      "mobile-first/happy-salad.html",
-      "mobile-first/happy-salad-male.html",
-      "mobile-first/mobile-first-recap.html"
+      "performance/performance.html",
+      "performance/1ms.html",
+      "performance/100ms.html",
+      "performance/1000ms.html",
+      "performance/10000ms.html",
+      "performance/response-times.html",
+      "performance/framerate.html",
+      "performance/load-desktop.html",
+      "performance/load-mobile.html"
     ]
+
 ]

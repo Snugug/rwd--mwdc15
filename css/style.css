@@ -252,6 +252,67 @@ body {
 }
 
 
+.thanks {
+  -moz-animation: "thanks" 2s infinite;
+  -webkit-animation: "thanks" 2s infinite;
+  transform: translateX(-.5em) scale(.75);
+  animation: "thanks" 2s infinite;
+}
+
+@-moz-keyframes thanks {
+  0% {
+    transform: scale(.85);
+  }
+  30% {
+    transform: scale(1.25);
+  }
+  60% {
+    transform: scale(1.25);
+  }
+  95% {
+    transform: scale(.85);
+  }
+  100% {
+    transform: scale(.85);
+  }
+}
+@-webkit-keyframes thanks {
+  0% {
+    transform: scale(.85);
+  }
+  30% {
+    transform: scale(1.25);
+  }
+  60% {
+    transform: scale(1.25);
+  }
+  95% {
+    transform:  scale(.85);
+  }
+  100% {
+    transform: scale(.85);
+  }
+}
+@keyframes thanks {
+  0% {
+    transform: scale(.85);
+  }
+  30% {
+    transform: scale(1.25);
+  }
+  60% {
+    transform: scale(1.25);
+  }
+  95% {
+    transform: scale(.85);
+  }
+  100% {
+    transform: scale(.85);
+  }
+}
+
+
+
 .reveal [class*="nine60"] {
   color: black;
   box-sizing: border-box;
