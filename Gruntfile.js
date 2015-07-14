@@ -73,7 +73,7 @@ module.exports = function(grunt) {
       },
       pages: {
         options: {
-          remote: 'git@github.com:snugug/people-first.git',
+          remote: 'git@github.com:snugug/rwd--mwdc15.git',
           branch: 'gh-pages'
         }
       }
